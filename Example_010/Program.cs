@@ -16,7 +16,7 @@ while (index < n)
     if(array[index] == find)
     {
         Console.WriteLine(index);
-        break;
+        break; // если в массиве у разных индексов одинаковые значения,то брейк будет искать индекс первого элемента
     }
     index = index++;
 }
